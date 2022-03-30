@@ -1,0 +1,73 @@
+﻿body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #F3F3F3;
+    height: 100vh;
+}
+
+.logo{
+    margin-right: 5px;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration-line: none;
+}
+
+.logout,
+.account{
+    width: 16px;
+    height: 16px;
+}
+
+.login-form,
+.register-form {
+    padding: 30px;
+    box-shadow: 0px 2px 18px -2px rgba(168,168,168,0.69);
+    -webkit-box-shadow: 0px 2px 18px -2px rgba(168,168,168,0.69);
+    -moz-box-shadow: 0px 2px 18px -2px rgba(168,168,168,0.69);
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.icon{
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-login,
+.btn-register,
+.btn-change,
+.btn-save{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #21262b;
+    color: #FFF;
+}
+
+.btn-login:hover,
+.btn-register:hover,
+.btn-change:hover,
+.btn-save:hover{
+    background-color: #000000;
+    transition: 0.5s ease;
+}
+
+.enter{
+    width: 16px;
+    height: 16px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #FFF !important;
+    background-color: #000;
+}
+
+#profile,
+#change-password{
+    color: #000;
+}
